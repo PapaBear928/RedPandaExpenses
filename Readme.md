@@ -26,16 +26,16 @@ inside the application.</h4>
 
 <b>To run setup first create virtual environment<b>
 
-python -m venv venv
+<i>python -m venv venv</i>
 
 <b>Then, after your venv folder is created open it by</b>
 
-venv\scripts\activate
+<i>venv\scripts\activate</i>
 
 <b>And then install requirements included in filde requirements.txt</b>
 
-pip install -r requirements.txt
+<i>pip install -r requirements.txt</i>
 
 <b>After installation complete you can run application</b>
 
-python run.py
+<i>python run.py</i>
