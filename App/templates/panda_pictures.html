@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+Some random pandas
+{% endblock %}
+
+
+{% block content %}
+    <body class="text-center"> 
+
+        <div class="container"> 
+            <br>
+            <br>
+            <h3>Here's a sweet treat from your red panda. Have a nice day!</h3>
+            <br>
+            
+                
+          
+            {% for images in pictures %}
+                <img src="static/{{images}}" alt="{{imgL}}" style="width:100%">
+            {% endfor %}
+             
+            
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="checkbox mb-3">
+            <a class="btn btn-sm btn-primary" href="{{ url_for('panda_pictures') }}">Next Panda Picture</a>
+         </div>
+
+    </body>
+
+
+{% endblock %}
